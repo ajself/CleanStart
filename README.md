@@ -4,7 +4,7 @@ CleanStart is a remix of the [Clean Swift](http://clean-swift.com/) templates.
 
 ## Why Clean Start?
 
-* Use [one true brace style](https://en.wikipedia.org/wiki/Indentation_style#Variant:_1TBS_.28OTBS.29) over the default templates [Allman style brace style](https://en.wikipedia.org/wiki/Indentation_style#Allman_style).
+* Use [one true brace style](https://en.wikipedia.org/wiki/Indentation_style#Variant:_1TBS_.28OTBS.29) over the default templates [Allman brace style](https://en.wikipedia.org/wiki/Indentation_style#Allman_style).
 * Use `guard` to return early in some places. 
 * Use extensions to organize code into logical sections.
 * Provide templates for apps that manage views in code.
