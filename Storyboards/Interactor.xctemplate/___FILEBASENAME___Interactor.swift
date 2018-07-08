@@ -20,7 +20,7 @@ class ___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___BusinessLogic,
   var worker: ___VARIABLE_sceneName___Worker?
   //var name: String = ""
   
-  // MARK: Do something
+  // MARK: Something
   
   func doSomething(request: ___VARIABLE_sceneName___.Something.Request) {
     worker = ___VARIABLE_sceneName___Worker()
