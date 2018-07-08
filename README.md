@@ -8,6 +8,7 @@ Clean Start is a remix of the [Clean Swift](http://clean-swift.com/) templates.
 * Use `guard` to return early in some places. 
 * Use extensions to organize code into logical sections.
 * Provide templates for apps that manage views in code.
+* Provide default access levels for classes, methods, and properties.
 
 ## What's "Clean"?
 
