@@ -1,6 +1,6 @@
 # Clean Start
 
-CleanStart is a remix of the [Clean Swift](http://clean-swift.com/) templates.
+Clean Start is a remix of the [Clean Swift](http://clean-swift.com/) templates.
 
 ## Why Clean Start?
 
@@ -44,7 +44,7 @@ Add the pod to your Podfile
 
 ## If you are managing views in code:
 
-Install the CleanStart pod
+Install the Clean Start pod
 
 `$: pod install`
 
