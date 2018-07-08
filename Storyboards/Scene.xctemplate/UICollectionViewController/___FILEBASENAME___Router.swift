@@ -8,19 +8,24 @@
 import UIKit
 
 @objc protocol ___VARIABLE_sceneName___RoutingLogic {
-  // func routeToSomewhere(segue: UIStoryboardSegue?)
+  //func routeToSomewhere(segue: UIStoryboardSegue?)
 }
 
 protocol ___VARIABLE_sceneName___DataPassing {
   var dataStore: ___VARIABLE_sceneName___DataStore? { get }
 }
 
+// MARK: - Object lifecycle
+
 class ___VARIABLE_sceneName___Router: NSObject, ___VARIABLE_sceneName___RoutingLogic, ___VARIABLE_sceneName___DataPassing {
-  weak var viewController: ___VARIABLE_sceneName___ViewController?
+  // VIP properties
   var dataStore: ___VARIABLE_sceneName___DataStore?
-  
-  // MARK: - Routing
-  
+  weak var viewController: ___VARIABLE_sceneName___ViewController?
+}
+
+// MARK: - Routing
+
+extension ___VARIABLE_sceneName___Router {
   // func routeToSomewhere(segue: UIStoryboardSegue?) {
   //  if let segue = segue {
   //    let destinationVC = segue.destination as! SomewhereViewController
@@ -34,15 +39,19 @@ class ___VARIABLE_sceneName___Router: NSObject, ___VARIABLE_sceneName___RoutingL
   //    navigateToSomewhere(source: viewController!, destination: destinationVC)
   //  }
   // }
+}
 
-  // MARK: - Navigation
-  
+// MARK: - Navigation
+
+extension ___VARIABLE_sceneName___Router {
   // func navigateToSomewhere(source: ___VARIABLE_sceneName___ViewController, destination: SomewhereViewController) {
   //  source.show(destination, sender: nil)
   // }
-  
-  // MARK: - Passing data
-  
+}
+
+// MARK: - Passing data
+
+extension ___VARIABLE_sceneName___Router {
   // func passDataToSomewhere(source: ___VARIABLE_sceneName___DataStore, destination: inout SomewhereDataStore) {
   //  destination.name = source.name
   // }
