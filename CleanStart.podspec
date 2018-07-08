@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name         = 'CleanStart'
   s.version      = '0.0.1'
-  s.summary      = 'Keep your iOS apps Clean using Uncle Bob\'s Clean architecture'
+  s.summary      = 'Keep your iOS apps clean using Uncle Bob\'s Clean architecture'
   s.homepage     = 'https://github.com/ajself/CleanStart'
   s.license      = 'MIT'
   s.license      = { type: 'MIT', file: 'LICENSE' }
