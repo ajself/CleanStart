@@ -7,6 +7,8 @@
 
 import UIKit
 
+import CleanStart
+
 public protocol ___VARIABLE_sceneName___DisplayLogic: AnyObject {
   func displaySomething(viewModel: ___VARIABLE_sceneName___.Something.ViewModel)
 }
@@ -54,13 +56,14 @@ extension ___VARIABLE_sceneName___ViewController {
 extension ___VARIABLE_sceneName___ViewController {
   override public func viewDidLoad() {
     super.viewDidLoad()
+    setupViewConfiguration()
     doSomething()
   }
 }
 
 // MARK: - View configuration
 
-extension ___VARIABLE_sceneName___ViewController {
+extension ___VARIABLE_sceneName___ViewController: ViewConfigurable {
   public func setupViewHierarchy() {
 
   }
