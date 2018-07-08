@@ -26,7 +26,7 @@ public class ___VARIABLE_sceneName___ViewController: UIViewController, ___VARIAB
     setup()
   }
   
-  required init?(coder aDecoder: NSCoder) {
+  required public init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
     setup()
   }
