@@ -7,26 +7,26 @@
 
 import UIKit
 
-@objc protocol ___VARIABLE_sceneName___RoutingLogic {
-  //func routeToSomewhere(segue: UIStoryboardSegue?)
+@objc public protocol ___VARIABLE_sceneName___RoutingLogic {
+  // func routeToSomewhere(segue: UIStoryboardSegue?)
 }
 
-protocol ___VARIABLE_sceneName___DataPassing {
+public protocol ___VARIABLE_sceneName___DataPassing {
   var dataStore: ___VARIABLE_sceneName___DataStore? { get }
 }
 
 // MARK: - Object lifecycle
 
-class ___VARIABLE_sceneName___Router: NSObject, ___VARIABLE_sceneName___RoutingLogic, ___VARIABLE_sceneName___DataPassing {
+public class ___VARIABLE_sceneName___Router: NSObject, ___VARIABLE_sceneName___RoutingLogic, ___VARIABLE_sceneName___DataPassing {
   // VIP properties
-  var dataStore: ___VARIABLE_sceneName___DataStore?
-  weak var viewController: ___VARIABLE_sceneName___ViewController?
+  public var dataStore: ___VARIABLE_sceneName___DataStore?
+  weak public var viewController: ___VARIABLE_sceneName___ViewController?
 }
 
 // MARK: - Routing
 
 extension ___VARIABLE_sceneName___Router {
-  // func routeToSomewhere(segue: UIStoryboardSegue?) {
+  // public func routeToSomewhere(segue: UIStoryboardSegue?) {
   //  if let segue = segue {
   //    let destinationVC = segue.destination as! SomewhereViewController
   //    var destinationDS = destinationVC.router!.dataStore!
@@ -44,7 +44,7 @@ extension ___VARIABLE_sceneName___Router {
 // MARK: - Navigation
 
 extension ___VARIABLE_sceneName___Router {
-  // func navigateToSomewhere(source: ___VARIABLE_sceneName___ViewController, destination: SomewhereViewController) {
+  // internal func navigateToSomewhere(source: ___VARIABLE_sceneName___ViewController, destination: SomewhereViewController) {
   //  source.show(destination, sender: nil)
   // }
 }
@@ -52,7 +52,7 @@ extension ___VARIABLE_sceneName___Router {
 // MARK: - Passing data
 
 extension ___VARIABLE_sceneName___Router {
-  // func passDataToSomewhere(source: ___VARIABLE_sceneName___DataStore, destination: inout SomewhereDataStore) {
+  // internal func passDataToSomewhere(source: ___VARIABLE_sceneName___DataStore, destination: inout SomewhereDataStore) {
   //  destination.name = source.name
   // }
 }

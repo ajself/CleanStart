@@ -7,13 +7,13 @@
 
 import UIKit
 
-protocol ___VARIABLE_sceneName___PresentationLogic {
+public protocol ___VARIABLE_sceneName___PresentationLogic {
   func presentSomething(response: ___VARIABLE_sceneName___.Something.Response)
 }
 
-class ___VARIABLE_sceneName___Presenter: ___VARIABLE_sceneName___PresentationLogic {
+public class ___VARIABLE_sceneName___Presenter: ___VARIABLE_sceneName___PresentationLogic {
   // VIP properties
-  weak var viewController: ___VARIABLE_sceneName___DisplayLogic?
+  weak public var viewController: ___VARIABLE_sceneName___DisplayLogic?
 }
 
 // MARK: - Inputs
@@ -21,7 +21,7 @@ class ___VARIABLE_sceneName___Presenter: ___VARIABLE_sceneName___PresentationLog
 extension ___VARIABLE_sceneName___Presenter {
   // MARK: - Something
   
-  func presentSomething(response: ___VARIABLE_sceneName___.Something.Response) {
+  public func presentSomething(response: ___VARIABLE_sceneName___.Something.Response) {
     let viewModel = ___VARIABLE_sceneName___.Something.ViewModel()
     
     viewController?.displaySomething(viewModel: viewModel)

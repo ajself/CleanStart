@@ -7,9 +7,8 @@
 
 import UIKit
 
-class ___VARIABLE_sceneName___Worker
-{
-  func doSomeWork()
-  {
+internal class ___VARIABLE_sceneName___Worker {
+  internal func doSomeWork() {
+    
   }
 }
