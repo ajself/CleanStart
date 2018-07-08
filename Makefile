@@ -1,8 +1,8 @@
 XCODE_USER_TEMPLATES_DIR=~/Library/Developer/Xcode/Templates/File\ Templates
 XCODE_USER_SNIPPETS_DIR=~/Library/Developer/Xcode/UserData/CodeSnippets
 
-STORYBOARD_TEMPLATES_DIR=Storyboards
-VIEWCODE_TEMPLATES_DIR=ViewCode
+STORYBOARD_TEMPLATES_DIR=Clean\ Start\ Storyboards
+VIEWCODE_TEMPLATES_DIR=Clean\ Start\ View\ Code
 
 install_templates:
 	mkdir -p $(XCODE_USER_TEMPLATES_DIR)
