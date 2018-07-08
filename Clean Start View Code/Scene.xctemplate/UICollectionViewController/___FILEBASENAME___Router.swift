@@ -7,7 +7,7 @@
 
 import UIKit
 
-@objc public protocol ___VARIABLE_sceneName___RoutingLogic {
+public protocol ___VARIABLE_sceneName___RoutingLogic {
   func routeToSomewhere()
 }
 
