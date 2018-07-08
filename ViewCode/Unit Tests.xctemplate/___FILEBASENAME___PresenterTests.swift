@@ -10,11 +10,11 @@ import XCTest
 
 class ___VARIABLE_sceneName___PresenterTests: XCTestCase
 {
-  // MARK: Subject under test
+  // MARK: - Subject under test
   
   var sut: ___VARIABLE_sceneName___Presenter!
   
-  // MARK: Test lifecycle
+  // MARK: - Test lifecycle
   
   override func setUp()
   {
@@ -27,14 +27,14 @@ class ___VARIABLE_sceneName___PresenterTests: XCTestCase
     super.tearDown()
   }
   
-  // MARK: Test setup
+  // MARK: - Test setup
   
   func setup___VARIABLE_sceneName___Presenter()
   {
     sut = ___VARIABLE_sceneName___Presenter()
   }
   
-  // MARK: Test doubles
+  // MARK: - Test doubles
   
   class ___VARIABLE_sceneName___DisplayLogicSpy: ___VARIABLE_sceneName___DisplayLogic
   {
@@ -46,7 +46,7 @@ class ___VARIABLE_sceneName___PresenterTests: XCTestCase
     }
   }
   
-  // MARK: Tests
+  // MARK: - Tests
   
   func testPresentSomething()
   {

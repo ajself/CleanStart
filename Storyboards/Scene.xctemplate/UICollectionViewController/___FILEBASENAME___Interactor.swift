@@ -7,26 +7,29 @@
 
 import UIKit
 
-protocol ___VARIABLE_sceneName___BusinessLogic
-{
+protocol ___VARIABLE_sceneName___BusinessLogic {
   func doSomething(request: ___VARIABLE_sceneName___.Something.Request)
 }
 
-protocol ___VARIABLE_sceneName___DataStore
-{
-  //var name: String { get set }
+protocol ___VARIABLE_sceneName___DataStore {
+  // var name: String { get set }
 }
 
-class ___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___BusinessLogic, ___VARIABLE_sceneName___DataStore
-{
+class ___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___BusinessLogic, ___VARIABLE_sceneName___DataStore {
+  // Data store properties
+  // var name: String = ""
+
+  // VIP properties
   var presenter: ___VARIABLE_sceneName___PresentationLogic?
   var worker: ___VARIABLE_sceneName___Worker?
-  //var name: String = ""
+}
+
+// MARK: - Inputs
+
+extension ___VARIABLE_sceneName___Interactor {
+  // MARK: - Something
   
-  // MARK: Do something
-  
-  func doSomething(request: ___VARIABLE_sceneName___.Something.Request)
-  {
+  func doSomething(request: ___VARIABLE_sceneName___.Something.Request) {
     worker = ___VARIABLE_sceneName___Worker()
     worker?.doSomeWork()
     

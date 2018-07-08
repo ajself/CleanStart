@@ -12,15 +12,22 @@ protocol ___VARIABLE_sceneName___BusinessLogic {
 }
 
 protocol ___VARIABLE_sceneName___DataStore {
-  //var name: String { get set }
+  // var name: String { get set }
 }
 
 class ___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___BusinessLogic, ___VARIABLE_sceneName___DataStore {
+  // Data store properties
+  // var name: String = ""
+
+  // VIP properties
   var presenter: ___VARIABLE_sceneName___PresentationLogic?
   var worker: ___VARIABLE_sceneName___Worker?
-  //var name: String = ""
-  
-  // MARK: Something
+}
+
+// MARK: - Inputs
+
+extension ___VARIABLE_sceneName___Interactor {
+  // MARK: - Something
   
   func doSomething(request: ___VARIABLE_sceneName___.Something.Request) {
     worker = ___VARIABLE_sceneName___Worker()

@@ -10,12 +10,12 @@ import XCTest
 
 class ___VARIABLE_sceneName___ViewControllerTests: XCTestCase
 {
-  // MARK: Subject under test
+  // MARK: - Subject under test
   
   var sut: ___VARIABLE_sceneName___ViewController!
   var window: UIWindow!
   
-  // MARK: Test lifecycle
+  // MARK: - Test lifecycle
   
   override func setUp()
   {
@@ -30,7 +30,7 @@ class ___VARIABLE_sceneName___ViewControllerTests: XCTestCase
     super.tearDown()
   }
   
-  // MARK: Test setup
+  // MARK: - Test setup
   
   func setup___VARIABLE_sceneName___ViewController()
   {
@@ -45,7 +45,7 @@ class ___VARIABLE_sceneName___ViewControllerTests: XCTestCase
     RunLoop.current.run(until: Date())
   }
   
-  // MARK: Test doubles
+  // MARK: - Test doubles
   
   class ___VARIABLE_sceneName___BusinessLogicSpy: ___VARIABLE_sceneName___BusinessLogic
   {
@@ -57,7 +57,7 @@ class ___VARIABLE_sceneName___ViewControllerTests: XCTestCase
     }
   }
   
-  // MARK: Tests
+  // MARK: - Tests
   
   func testShouldDoSomethingWhenViewIsLoaded()
   {

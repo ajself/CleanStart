@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol ___VARIABLE_sceneName___DisplayLogic: class
+protocol ___VARIABLE_sceneName___DisplayLogic: AnyObject
 {
   func displaySomething(viewModel: ___VARIABLE_sceneName___.Something.ViewModel)
 }
@@ -17,7 +17,7 @@ class ___VARIABLE_sceneName___ViewController: UICollectionViewController, ___VAR
   var interactor: ___VARIABLE_sceneName___BusinessLogic?
   var router: (NSObjectProtocol & ___VARIABLE_sceneName___RoutingLogic & ___VARIABLE_sceneName___DataPassing)?
 
-  // MARK: Object lifecycle
+  // MARK: - Object lifecycle
   
   override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?)
   {
@@ -31,7 +31,7 @@ class ___VARIABLE_sceneName___ViewController: UICollectionViewController, ___VAR
     setup()
   }
   
-  // MARK: Setup
+  // MARK: - Setup
   
   private func setup()
   {
@@ -47,7 +47,7 @@ class ___VARIABLE_sceneName___ViewController: UICollectionViewController, ___VAR
     router.dataStore = interactor
   }
   
-  // MARK: Routing
+  // MARK: - Routing
   
   override func prepare(for segue: UIStoryboardSegue, sender: Any?)
   {
@@ -59,7 +59,7 @@ class ___VARIABLE_sceneName___ViewController: UICollectionViewController, ___VAR
     }
   }
   
-  // MARK: View lifecycle
+  // MARK: - View lifecycle
   
   override func viewDidLoad()
   {
@@ -67,7 +67,7 @@ class ___VARIABLE_sceneName___ViewController: UICollectionViewController, ___VAR
     doSomething()
   }
   
-  // MARK: Do something
+  // MARK: - Do something
   
   //@IBOutlet weak var nameTextField: UITextField!
   

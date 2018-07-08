@@ -16,7 +16,7 @@ class ___VARIABLE_sceneName___Presenter: ___VARIABLE_sceneName___PresentationLog
 {
   weak var viewController: ___VARIABLE_sceneName___DisplayLogic?
   
-  // MARK: Do something
+  // MARK: - Do something
   
   func presentSomething(response: ___VARIABLE_sceneName___.Something.Response)
   {

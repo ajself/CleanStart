@@ -10,11 +10,11 @@ import XCTest
 
 class ___VARIABLE_sceneName___WorkerTests: XCTestCase
 {
-  // MARK: Subject under test
+  // MARK: - Subject under test
   
   var sut: ___VARIABLE_sceneName___Worker!
   
-  // MARK: Test lifecycle
+  // MARK: - Test lifecycle
   
   override func setUp()
   {
@@ -27,16 +27,16 @@ class ___VARIABLE_sceneName___WorkerTests: XCTestCase
     super.tearDown()
   }
   
-  // MARK: Test setup
+  // MARK: - Test setup
   
   func setup___VARIABLE_sceneName___Worker()
   {
     sut = ___VARIABLE_sceneName___Worker()
   }
   
-  // MARK: Test doubles
+  // MARK: - Test doubles
   
-  // MARK: Tests
+  // MARK: - Tests
   
   func testSomething()
   {
